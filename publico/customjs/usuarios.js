@@ -208,7 +208,7 @@ function editarusuario(id_user) {
 function mostrarDatosFormusuarios(record) {
     const {id_user, usuario ,password,tipo}=record;
     document.querySelector("#id_user").value=id_user;
-    document.querySelector("#user").value=usuario;
+    document.querySelector("#usuarios").value=usuario;
     document.querySelector("#password").value=password;
     document.querySelector("#tipo").value=tipo;
 }
