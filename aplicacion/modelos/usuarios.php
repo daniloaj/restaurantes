@@ -9,11 +9,11 @@ public function getAllusuarios() {
         return $this->executeQuery("SELECT * FROM usuarios order by id_user");
     }
     public function saveusuarios($data) {
-        return $this->executeInsert("insert into usuarios set usuario='{$data["user"]}', password=sha1('{$data["password"]}'), tipo='{$data["tipo"]}'");
+        return $this->executeInsert("insert into usuarios set usuario='{$data["usuarios"]}', password=sha1('{$data["password"]}'), tipo='{$data["tipo"]}'");
     }
 
-    public function getusuariosByName($usuario) {
-        return $this->executeQuery("SELECT * FROM usuarios where usuario='{$usuario}'");
+    public function getusuariosByName($usuarios) {
+        return $this->executeQuery("SELECT * FROM usuarios where usuario='{$usuarios}'");
     }
 
     public function getOneusuario($id_user) {
@@ -21,7 +21,7 @@ public function getAllusuarios() {
     }
 
     public function updateusuarios($data) {
-        return $this->executeInsert("update usuarios set usuario='{$data["user"]}',password=if('{$data["password"]}'=usuarios.password,usuarios.password,sha1('{$data["password"]}')),tipo='{$data["tipo"]}' where id_user='{$data["id_user"]}'");
+        return $this->executeInsert("update usuarios set usuario='{$data["usuarios"]}',password=if('{$data["password"]}'=usuarios.password,usuarios.password,sha1('{$data["password"]}')),tipo='{$data["tipo"]}' where id_user='{$data["id_user"]}'");
     }
 
     public function deleteusuario($id_user) {
