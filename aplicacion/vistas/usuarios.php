@@ -83,9 +83,9 @@
                 <hr>
                 <form id="formusuarios" enctype="multipart/form-data">
                     <div class="row mb-3">
-                        <label for="user" class="col-sm-2 col-form-label">Usuario:</label>
+                        <label for="usuarios" class="col-sm-2 col-form-label">Usuario:</label>
                         <div class="col-sm-10">
-                        <input type="text" class="form-control" id="user" name="user" require>
+                        <input type="text" class="form-control" id="usuarios" name="usuarios" require>
                         <input type="hidden" name="id_user" id="id_user" value="0">
                         </div>
                     </div>
