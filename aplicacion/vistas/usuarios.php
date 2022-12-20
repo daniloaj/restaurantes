@@ -153,7 +153,7 @@
         }
     </script>
     <?php include_once "aplicacion/vistas/partes/javascript.php";?>
-    <script src="<?php echo URL?>publico/customjs/usuarios.js">
+    <script src="<?php echo URL?>publico/customjs/user.js">
     </script>
 </body>
 </html>
