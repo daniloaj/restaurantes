@@ -24,7 +24,7 @@ public function deleteusuario() {
 
     public function saveusuarios() {
         if ($_POST["id_user"]=="0") {
-            $datosUser=$this->usuarios->getusuariosByName($_POST["usuario"]);
+            $datosUser=$this->usuarios->getusuariosByName($_POST["usuarios"]);
             if (count($datosUser)>0) {
                 $info=array('success'=>false,'msg'=>"El usuario ya existe");
             } else {
