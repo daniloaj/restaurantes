@@ -212,8 +212,8 @@
     <?php include_once "aplicacion/vistas/partes/javascript.php";?>
     <script src="<?php echo URL?>publico/customjs/restaurant.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Y0K8KWvA8IJg1ZDNDsJ1ixEDmNg"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Y0K8KWvA8IJg1ZDNDsJ1ixEDmNg&callback=initMap"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2523tY0K8KWvA8IJg1ZDND5y0sJ1ixEDmNg"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2523tY0K8KWvA8IJg1ZDND5y0sJ1ixEDmNg&callback=initMap"></script>
 
     <script type="text/javascript">
       function initMap() {
